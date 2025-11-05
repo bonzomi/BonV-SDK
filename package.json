@@ -1,8 +1,8 @@
 {
-  "name": "dev.bonv.scene-sdk",
+  "name": "dev.bonv.sdk",
   "version": "1.0.0",
-  "displayName": "BonV Scene SDK",
-  "description": "Exports scenes",
+  "displayName": "BonV SDK",
+  "description": "SDK for the software BonV",
   "unity": "6000.0",
   "unityRelease": "41f1",
   "documentationUrl": "https://example.com/",
@@ -12,13 +12,10 @@
     "com.unity.render-pipelines.universal": "17.0.4"
   },
   "keywords": [
-    "keyword1",
-    "keyword2",
-    "keyword3"
   ],
   "author": {
-    "name": "Unity",
-    "email": "unity@example.com",
-    "url": "https://www.unity3d.com"
+    "name": "Bonzomi",
+    "email": "mail@bonzomi.net",
+    "url": "https://www.bonzomi.net/"
   }
 }

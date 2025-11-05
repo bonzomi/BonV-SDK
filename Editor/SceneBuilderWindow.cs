@@ -7,7 +7,7 @@ using UnityEngine.Video;
 
 namespace BonV.Editor
 {
-    public class LoadTestMaterials : EditorWindow
+    public class SceneBuilderWindow : EditorWindow
     {
         private int cameraCount = 0;
         bool loadedByButton = false;
@@ -52,7 +52,7 @@ namespace BonV.Editor
         public static void ShowWindow()
         {
             // Create and show the window
-            GetWindow<LoadTestMaterials>("Scene Setup");
+            GetWindow<SceneBuilderWindow>("Scene Setup");
         }
 
         private void OnGUI()
